@@ -1,0 +1,13 @@
+<form [formGroup]="cadastraForm" action="/salva" method="POST">
+    <label for="nome">Nome:</label>
+    <input formControlName="nome" type="text" name="nome" id="nome"><br>
+    @if (cadastraForm.controls.nome.invalid){
+    <p style="color: red">Você tem certeza que sabe o que está fazendo?</p>
+    }
+    <hr>
+    <label for="data">Nascimento:</label>
+    <input formControlName="data" type="date" name="data" id="data">
+</form>
+<button (click)="mostra()">Mostra</button>
+
+<h1>{{personagem_nome}}</h1>
