@@ -7,10 +7,17 @@ import {
   ReactiveFormsModule,
   Validators,
 } from '@angular/forms';
+import { Componente1Component } from '../../shared/componente1/componente1.component';
+import { Componente2Component } from '../../shared/componente2/componente2.component';
 
 @Component({
   selector: 'app-cadastro',
-  imports: [FormsModule, ReactiveFormsModule],
+  imports: [
+    FormsModule,
+    ReactiveFormsModule,
+    Componente1Component,
+    Componente2Component,
+  ],
   templateUrl: './cadastro.component.html',
   styleUrl: './cadastro.component.sass',
 })

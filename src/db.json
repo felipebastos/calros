@@ -1,0 +1,53 @@
+{
+  "veiculos": [
+    {
+      "id": "1",
+      "valor": "carro"
+    },
+    {
+      "id": "2",
+      "valor": "moto"
+    },
+    {
+      "id": "3",
+      "valor": "bicicleta"
+    },
+    {
+      "id": "87c2",
+      "valor": "bola"
+    },
+    {
+      "id": "90af",
+      "valor": "pipa"
+    },
+    {
+      "id": "0aae",
+      "valor": "pipoca"
+    },
+    {
+      "id": "e960",
+      "valor": "teste"
+    },
+    {
+      "id": "d1bc",
+      "valor": "tatu"
+    },
+    {
+      "id": "8cf6",
+      "valor": "novo"
+    },
+    {
+      "id": "1487",
+      "valor": "tatu"
+    },
+    {
+      "id": "a0d7",
+      "valor": "bola"
+    },
+    {
+      "id": "ad5c",
+      "valor": "plinio"
+    }
+  ],
+  "motoristas": []
+}

@@ -1,0 +1,12 @@
+<h1>Veículos cadastrados</h1>
+<mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let veiculo of veiculos"
+        (click)="remove(veiculo.id)">{{veiculo.valor}}</mat-list-item>
+</mat-list>
+<form action="">
+    <mat-form-field>
+        <mat-label>novo veículo</mat-label>
+        <input matInput type="text" name="nome" [(ngModel)]="nomeNovo">
+    </mat-form-field>
+</form>
+<button mat-flat-button (click)="addNovo()">Adicionar</button>
