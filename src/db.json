@@ -1,53 +1,18 @@
 {
-  "veiculos": [
+  "tasks": [
     {
       "id": "1",
-      "valor": "carro"
+      "title": "Fazer algo",
+      "description": "Fazer algo com mais detalhes",
+      "created_at": "2025-04-13",
+      "due_by": "2025-04-15"
     },
     {
-      "id": "2",
-      "valor": "moto"
-    },
-    {
-      "id": "3",
-      "valor": "bicicleta"
-    },
-    {
-      "id": "87c2",
-      "valor": "bola"
-    },
-    {
-      "id": "90af",
-      "valor": "pipa"
-    },
-    {
-      "id": "0aae",
-      "valor": "pipoca"
-    },
-    {
-      "id": "e960",
-      "valor": "teste"
-    },
-    {
-      "id": "d1bc",
-      "valor": "tatu"
-    },
-    {
-      "id": "8cf6",
-      "valor": "novo"
-    },
-    {
-      "id": "1487",
-      "valor": "tatu"
-    },
-    {
-      "id": "a0d7",
-      "valor": "bola"
-    },
-    {
-      "id": "ad5c",
-      "valor": "plinio"
+      "id": "1ebd",
+      "title": "Mais algumas tarefa",
+      "description": "Que a gente deve fazer a todo custo de um jeito eficiente.",
+      "created_at": "2025-04-13",
+      "due_by": "2025-04-13"
     }
-  ],
-  "motoristas": []
+  ]
 }
